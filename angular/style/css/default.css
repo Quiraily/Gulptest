@@ -1,0 +1,51 @@
+input, .data-row {
+  width:400px;
+  padding:5px;
+  box-sizing: border-box;
+}
+
+.animate {
+  -webkit-transition:all 0.4s ease-out;
+  transition:all 0.4s ease-out;
+}
+
+.data-row:nth-child(even) {background: #CCC}
+.data-row:nth-child(odd) {background: #FFF}
+
+.menu {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  background: #CCCCCC;
+  height: 100%;
+  width: 150px;
+  padding:10px;
+}
+
+.menu.ng-hide {
+  margin-right:-200px;
+}
+
+.menu.isEdit {
+  background: #FF0000;
+}
+
+.menu input {
+  pointer-events: none;
+  background: #666666;
+}
+
+.menu.isEdit input {
+  pointer-events: auto;
+  background: #ffffff;
+}
+
+.data-row.ng-enter,
+.data-row.ng-leave.ng-leave-active {
+  opacity:0;
+}
+
+.data-row.ng-leave,
+.data-row.ng-enter.ng-enter-active {
+  opacity:1;
+}
