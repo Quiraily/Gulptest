@@ -1,0 +1,33 @@
+{
+  "name": "gulptest",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "gulpfile.js",
+  "devDependencies": {
+    "gulp-ruby-sass": "*"
+    "gulp-autoprefixer": "*"
+    "gulp-minify-css": "*"
+    "gulp-jshint": "*"
+    "gulp-concat": "*"
+    "gulp-uglify": "*"
+    "gulp-imagemin": "*"
+    "gulp-cache": "*"
+    "gulp-notify": "*"
+    "del": "*"
+
+
+  }
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Quiraily/Gulptest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Quiraily/Gulptest/issues"
+  },
+  "homepage": "https://github.com/Quiraily/Gulptest#readme"
+}
